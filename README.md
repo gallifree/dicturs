@@ -134,7 +134,7 @@ Folders from the former name (`voice-commander`) are moved there automatically o
 ## Development
 
 - Website: https://gallifree.app/dicturs/, built from `pages/dicturs/` of
-  [gallifree/gallifree.github.io](https://github.com/gallifree/gallifree.github.io).
+  [gallifree/www](https://github.com/gallifree/www).
 - Releases use git-flow (AVH) and two scripts. One-time setup:
 
   ```sh
