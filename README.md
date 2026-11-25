@@ -133,7 +133,8 @@ Folders from the former name (`voice-commander`) are moved there automatically o
 
 ## Development
 
-- `www/`: the website (Vike, React, Motion, i18next, daisyUI): `cd www && npm install && npm run dev`.
+- Website: https://gallifree.app/dicturs/, built from `pages/dicturs/` of
+  [gallifree/gallifree.github.io](https://github.com/gallifree/gallifree.github.io).
 - Releases use git-flow (AVH) and two scripts. One-time setup:
 
   ```sh
@@ -154,8 +155,6 @@ Folders from the former name (`voice-commander`) are moved there automatically o
   Publishing the release starts `.github/workflows/release.yml`, which builds Linux (x86_64, arm64),
   macOS (arm64, x86_64) and Windows (x86_64, arm64) archives and attaches them, with `install.sh`.
   `scripts/bump-version.sh --help` lists the options (`major|minor|patch`, `-m`, `--screenshots`).
-- Website: `.github/workflows/pages.yml` publishes `www/` and `install.sh` on GitHub Pages
-  (Settings › Pages › Source: GitHub Actions).
 - Screenshots: `scripts/screenshots.sh` runs a debug build of `dicturs-gui` with
   `DICTURS_SCREENSHOTS=<dir>` on a demo config (yours is never shown) and refreshes
   `docs/screenshots/`, used here and on the website. The tour does not exist in release builds.
