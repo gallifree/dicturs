@@ -3,7 +3,7 @@ name = "dicturs"
 version = "0.1.3"
 edition = "2024"
 description = "Run shell commands with your voice, offline: CLI, terminal UI and desktop UI"
-homepage = "https://dicturs.app"
+homepage = "https://gallifree.app/dicturs/"
 repository = "https://github.com/gallifree/dicturs"
 keywords = ["voice", "speech", "whisper", "tui", "launcher"]
 
